@@ -1,9 +1,15 @@
 [GIT](#git)
+
 [Команды BASH](#commandsBASH)
+
 [Команды GIT](#commandsGIT)
+
 [Об SSH](#aboutSSH)
+
 [Проверка наличия SSH-ключа](#checkSSH)
+
 [Инструкция по генерации SSH-ключа](#generationSSH)
+
 [Инструкция по связыванию SSH-ключа и GitHub-аккаунта](#bindSSHandGitHub)
 
 <a name="git"><h1>GIT</h1></a>
