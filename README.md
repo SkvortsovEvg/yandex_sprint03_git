@@ -14,6 +14,8 @@
 
 [Инструкция по связыванию SSH-ключа и GitHub-аккаунта](#bindSSHAndGitHub)
 
+[Отправка на GitHub с помощью IntelliJ IDEA](#sendToGITWithIDEA)
+
 <a name="git"><h1>GIT</h1></a>
 
 Историю проектов программистов хранит отдельная программа — **система контроля версий** (англ. _Version Control System_, или коротко _VCS_).
@@ -236,3 +238,11 @@ $ ls -a ~/.ssh
 ```BASH
  Hi %ВАШ_АККАУНТ%! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
+<a name="bindSSHAndGitHub"><h2>Отправка на GitHub с помощью IntelliJ IDEA</h2></a>
+
+**git init**
+
+1. Откройте папку проекта в IntelliJ IDEA с помощью кнопки **Open** (англ. «открыть»). Для проектов, которые не находятся под контролем Git, следующим шагом будет инициализация Git-репозитория. Выполните её: выберите пункт меню **VCS** → **Enable Version Control Integration…** (англ. «система контроля версий» → «включить интеграцию с системой контроля»).
+
+![Включить интеграцию с системой контроля](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_001.png "Текст заголовка логотипа 1")
