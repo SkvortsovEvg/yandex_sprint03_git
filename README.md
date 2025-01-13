@@ -239,10 +239,10 @@ $ ls -a ~/.ssh
  Hi %ВАШ_АККАУНТ%! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-<a name="bindSSHAndGitHub"><h2>Отправка на GitHub с помощью IntelliJ IDEA</h2></a>
+<a name="sendToGITWithIDEA"><h2>Отправка на GitHub с помощью IntelliJ IDEA</h2></a>
 
 **git init**
 
 1. Откройте папку проекта в IntelliJ IDEA с помощью кнопки **Open** (англ. «открыть»). Для проектов, которые не находятся под контролем Git, следующим шагом будет инициализация Git-репозитория. Выполните её: выберите пункт меню **VCS** → **Enable Version Control Integration…** (англ. «система контроля версий» → «включить интеграцию с системой контроля»).
 
-![Включить интеграцию с системой контроля](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_001.png "Текст заголовка логотипа 1")
+![Включить интеграцию с системой контроля](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_001.png "Текст 001")
