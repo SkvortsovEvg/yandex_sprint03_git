@@ -245,21 +245,21 @@ $ ls -a ~/.ssh
 
 1. Откройте папку проекта в IntelliJ IDEA с помощью кнопки **Open** (англ. «открыть»). Для проектов, которые не находятся под контролем Git, следующим шагом будет инициализация Git-репозитория. Выполните её: выберите пункт меню **VCS** → **Enable Version Control Integration…** (англ. «система контроля версий» → «включить интеграцию с системой контроля»).
 
-![Включить интеграцию с системой контроля](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_001.png "Текст 001")
+![Включить интеграцию с системой контроля](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_001.png "Текст 001")
 
 В появившемся окне выберите систему Git, а затем нажмите **ОК**.
 
-![Git and OK](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_002.png "Текст 002")
+![Git and OK](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_002.png "Текст 002")
 
 Для текущего проекта станет доступна панель инструментов Git. Её можно найти в левом нижнем углу.
 
-![Git и левый нижний угол](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_003.png "Текст 003")
+![Git и левый нижний угол](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_003.png "Текст 003")
 
 Также в меню Git и во многих контекстных меню станут доступны пункты, которые связаны с интеграцией контроля версий. Например, сравнение и откат версий, просмотр истории изменений, просмотр авторов изменений и так далее. Об этих инструментах мы ещё расскажем далее в курсе.
 
 Для проектов с уже настроенной системой контроля версий панель Git доступна сразу после открытия. Рассмотрим её базовый интерфейс. Он состоит из дерева веток и списка коммитов — сейчас этот список пустой. Дерево веток содержит только локальную ветку **master**, тоже пустую.
 
-![Empty master](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_004.png "Текст 004")
+![Empty master](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_004.png "Текст 004")
 
 В работе вам также может пригодиться вкладка **Console**, которая находится справа от текущей вкладки **Log**. На самом деле IDEA просто использует утилиты Git, поэтому выполняет все нужные команды в консоли — совсем как вы в предыдущих темах. После того как вы поработаете с пунктами меню Git или нажмёте кнопки на панели быстрых действий, вы сможете просмотреть список выполненных IDEA команд на вкладке **Console**.
 
@@ -269,11 +269,11 @@ $ ls -a ~/.ssh
 
 Вы уже создавали удалённый репозиторий на платформе GitHub в одной из прошлых тем. Создайте ещё один и потренируйтесь связывать локальный и удалённый репозитории через графический интерфейс IDE. Вам нужно добавить удалённый репозиторий в список **remote**. Для этого кликните кнопкой мыши по пункту меню **Git → Manage Remotes** (англ. _«управлять списком remote»_).
 
-![Manage Remotes](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_005.png "Текст 005")
+![Manage Remotes](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_005.png "Текст 005")
 
 Нажмите на **+**. IDEA предложит указать первый **remote** для вашего репозитория. По традиции он называется **origin** (англ. _«источник»_). Заполните его ссылкой на ваш репозиторий GitHub и нажмите OK.
 
-![link repository](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_006.png "Текст 006")
+![link repository](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_006.png "Текст 006")
 
 Репозиторий готов к первому коммиту и синхронизации!
 
@@ -281,11 +281,11 @@ $ ls -a ~/.ssh
 
 3. Выполнение коммита в IDEA немного отличается от того, как вы это делали в консоли. Графический интерфейс позволяет совместить подготовительные операции **git status** и **git add/rm** в окне коммита, которое расположено на боковой панели слева. Вызвать это окно можно из меню **Git → Commit**. Также можно нажать на кнопку **✓ (Commit…)** на панели быстрых действий в правом верхнем углу экрана IDE.
 
-![Commit](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_007.png "Текст 007")
+![Commit](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_007.png "Текст 007")
 
 Затем отметьте файлы, которые хотите добавить в репозиторий. Заполните сообщение о коммите в окне ввода и нажмите кнопку **Commit** внизу. После этого выполнятся все консольные команды, в том числе **git commit**.
 
-![git commit](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_008.png "Текст 008")
+![git commit](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_008.png "Текст 008")
 
 Изменения зафиксированы. Убедитесь в этом: перейдите в панель **Git** и выберите главную ветку **master** или **main**, если она ещё не выбрана. Вы увидите свой новый коммит.
 
@@ -293,10 +293,10 @@ $ ls -a ~/.ssh
 
 4. Последний шаг — отправить локальные изменения в удалённый репозиторий, который был указан в качестве **remote**. Вызовите команду меню **Git → Push** или нажмите на кнопку **➚ (Push…)** на панели быстрых действий.
 
-![Push](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_009.png "Текст 009")
+![Push](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_009.png "Текст 009")
 
 Откроется диалог подтверждения операции. Он нужен, чтобы вы убедились в правильности своих действий с удалённым репозиторием. Если всё в порядке, нажмите на кнопку **Push**.
 
-![git push](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/pic_010.png "Текст 010")
+![git push](https://github.com/SkvortsovEvg/yandex_sprint03_git/blob/main/images/GitAndIdea/pic_010.png "Текст 010")
 
 Изменения отправлены в удалённый репозиторий! Проверьте страницу проекта на GitHub: коммит должен появиться в удалённой копии исходного кода.
