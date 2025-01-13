@@ -83,7 +83,7 @@ $ git clone git@github.com:yandex-praktikum/git-clone-practice.git
 ```
 
 11. **git remote -v** - проверка того, что репозитории связаны.
-12. **git clone** - клонируем форк на компьютер. Клонировать форк — значит скачать его, чтобы работать с кодом на своём компьютере. Тут нам и пригодится SSH.
+12. **git clone** - клонируем форк на компьютер. Клонировать форк — значит скачать его, чтобы работать с кодом на своём компьютере. Тут нам и пригодится [SSH](#aboutSSH).
 
 ```BASH
 $ git clone git@github.com:your-nickname/your-project.git
