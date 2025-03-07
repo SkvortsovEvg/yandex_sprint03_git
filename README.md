@@ -8,41 +8,41 @@
 
 [4. Об SSH](#aboutSSH)
 
-  [4.1. Проверка наличия SSH-ключа](#checkSSH)
+[4.1. Проверка наличия SSH-ключа](#checkSSH)
 
-  [4.2. Инструкция по генерации SSH-ключа](#generationSSH)
+[4.2. Инструкция по генерации SSH-ключа](#generationSSH)
 
-  [4.3. Инструкция по связыванию SSH-ключа и GitHub-аккаунта](#bindSSHAndGitHub)
+[4.3. Инструкция по связыванию SSH-ключа и GitHub-аккаунта](#bindSSHAndGitHub)
 
 [5. Отправка на GitHub с помощью IntelliJ IDEA](#sendToGITWithIDEA)
 
 [6. git log](#gitLog)
 
-  [6.1. Хеш — идентификатор коммита](#hashIDCoLogmmit)
+[6.1. Хеш — идентификатор коммита](#hashIDCoLogmmit)
 
-  [6.2. Исследуем лог](#researchLog)
+[6.2. Исследуем лог](#researchLog)
 
-  [6.3. HEAD - всему голова](#everythingHEAD)
+[6.3. HEAD - всему голова](#everythingHEAD)
 
 [7. git status](#gitStatus)
 
-  [7.1. Статусы untracked/tracked, staged и modified](#otherStatus)
+[7.1. Статусы untracked/tracked, staged и modified](#otherStatus)
 
-  [7.2. Типичный жизненный цикл файла в Git](#lifeFileInGit)
+[7.2. Типичный жизненный цикл файла в Git](#lifeFileInGit)
 
-  [7.3. Какие состояния показывает команда git status](#statesGitStatus)
+[7.3. Какие состояния показывает команда git status](#statesGitStatus)
 
 [8. Оформление сообщений к коммитам](#messageInCommit)
 
-  [8.1. Зачем вообще писать сообщения](#whyMessageInCommit)
+[8.1. Зачем вообще писать сообщения](#whyMessageInCommit)
 
-  [8.2. Стили оформления сообщений коммитов](#visualStyleMessageCommit)
+[8.2. Стили оформления сообщений коммитов](#visualStyleMessageCommit)
 
-    [8.2.1. Корпоративный](#visualStyleMessageCommitCorporate)
+[8.2.1. Корпоративный](#visualStyleMessageCommitCorporate)
 
-    [8.2.2. Conventional Commits](#visualStyleMessageCommitConventionalCommits)
+[8.2.2. Conventional Commits](#visualStyleMessageCommitConventionalCommits)
 
-    [8.2.3. GitHub-стиль](#visualStyleMessageCommitGitHubStyle)
+[8.2.3. GitHub-стиль](#visualStyleMessageCommitGitHubStyle)
 
 <a name="git"><h1>GIT</h1></a>
 
